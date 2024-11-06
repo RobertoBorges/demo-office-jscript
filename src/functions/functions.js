@@ -7,7 +7,7 @@
  * @param {number} second Second number
  * @returns {number} The sum of the two numbers.
  */
-export function add(first, second) {
+export function add2(first, second) {
   return first + second;
 }
 
