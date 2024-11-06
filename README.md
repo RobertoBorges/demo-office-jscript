@@ -20,3 +20,9 @@ Specially change the followin session on your webpack.config.js file to allow th
       port: process.env.npm_package_config_dev_server_port || 3000,
     },
 ```
+
+Additionally, change the http://localhost by the URL where you deployed the app to be used by the manifest file, e.g.:
+
+```xml
+    <SourceLocation DefaultValue="https://contoso.com/taskpane.html" />
+```
